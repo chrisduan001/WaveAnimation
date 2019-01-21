@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <attr name="WavesViewStyle" format="reference" />
+
+    <declare-styleable name="WavesView">
+        <attr name="waveColor" format="color" />
+        <attr name="waveStrokeWidth" format="dimension" />
+        <attr name="waveGap" format="dimension" />
+        <attr name="waveTypes" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="star" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
